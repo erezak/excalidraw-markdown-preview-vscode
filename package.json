@@ -3,12 +3,16 @@
   "displayName": "Markdown Inline Excalidraw",
   "description": "Adds inline Excalidraw diagram support to VS Code's built-in Markdown preview.",
   "version": "0.0.1",
-  "publisher": "local-dev",
+  "publisher": "Erez Korn",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/local-dev/markdown-inline-excalidraw"
+    "url": "https://github.com/erezak/excalidraw-markdown-preview-vscode.git"
   },
+  "bugs": {
+    "url": "https://github.com/erezak/excalidraw-markdown-preview-vscode/issues"
+  },
+  "homepage": "https://github.com/erezak/excalidraw-markdown-preview-vscode#readme",
   "engines": {
     "vscode": "^1.99.0"
   },
