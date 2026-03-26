@@ -1,0 +1,111 @@
+{
+  "name": "markdown-inline-excalidraw",
+  "displayName": "Markdown Inline Excalidraw",
+  "description": "Adds inline Excalidraw diagram support to VS Code's built-in Markdown preview.",
+  "version": "0.0.1",
+  "publisher": "local-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/local-dev/markdown-inline-excalidraw"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "capabilities": {
+    "virtualWorkspaces": {
+      "supported": true
+    },
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "files": [
+    "dist/**",
+    "dist-preview/**",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "markdown",
+    "preview",
+    "excalidraw",
+    "diagram"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./dist/index.js",
+  "browser": "./dist/web/index.js",
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewScripts": [
+      "./dist-preview/index.bundle.js"
+    ],
+    "configuration": {
+      "title": "Markdown Inline Excalidraw",
+      "properties": {
+        "markdown-inline-excalidraw.languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "excalidraw"
+          ],
+          "description": "Language ids used to identify Excalidraw code blocks in markdown."
+        },
+        "markdown-inline-excalidraw.exportBackground": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether rendered diagrams should include the Excalidraw background color."
+        },
+        "markdown-inline-excalidraw.theme": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "light",
+            "dark"
+          ],
+          "default": "auto",
+          "description": "Controls the Excalidraw theme used for preview rendering."
+        },
+        "markdown-inline-excalidraw.maxTextSize": {
+          "type": "number",
+          "default": 200000,
+          "minimum": 1,
+          "description": "Maximum allowed size of inline Excalidraw source text."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "npm run build:extension && npm run build:preview",
+    "build:extension": "node ./build/esbuild-extension.mjs",
+    "build:preview": "node ./build/esbuild-preview.mjs",
+    "package:vsix": "python3 ./build/package-vsix.py",
+    "watch": "node ./build/watch.mjs",
+    "analyze:preview": "node ./build/esbuild-preview.mjs --metafile",
+    "scan:secrets": "node ./build/scan-secrets.mjs",
+    "compile": "npm run build"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^24.5.2",
+    "@types/vscode": "^1.99.0",
+    "@vscode/vsce": "^3.7.1",
+    "esbuild": "^0.25.10",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.18.0",
+    "lz-string": "^1.5.0",
+    "markdown-it": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

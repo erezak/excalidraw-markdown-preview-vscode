@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-preview/
+*.vsix
+*.tgz
+.vsce/
+install.log
+install.exit
+build.log
+build.exit
+*.log
+*.exit
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
