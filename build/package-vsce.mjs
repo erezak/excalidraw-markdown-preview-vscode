@@ -1,7 +1,9 @@
 import path from 'node:path';
 import { createVSIX } from '@vscode/vsce';
+import pkg from '../package.json' with { type: 'json' };
 
-const outputPath = path.resolve(process.cwd(), 'markdown-inline-excalidraw-1.0.0.vsix');
+const outputFileName = `${pkg.name}-${pkg.version}.vsix`;
+const outputPath = path.resolve(process.cwd(), outputFileName);
 
 try {
   await createVSIX({

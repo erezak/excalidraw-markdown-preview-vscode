@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Markdown Inline Excalidraw icon</title>
+  <desc id="desc">A compact icon combining a markdown page with hand-drawn Excalidraw shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#13212b"/>
+      <stop offset="1" stop-color="#203746"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#091117" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <path d="M26 37C34 29 47 24 64 24C80 24 94 29 102 38" fill="none" stroke="#2f4e60" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  <path d="M23 96C35 102 48 105 64 105C79 105 93 101 105 94" fill="none" stroke="#2f4e60" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+
+  <g filter="url(#shadow)">
+    <path d="M39 24H76L92 40V93C92 98 88 102 83 102H39C34 102 30 98 30 93V33C30 28 34 24 39 24Z" fill="#fbfaf4"/>
+    <path d="M76 24V35C76 38 78 40 81 40H92" fill="#e8edf0"/>
+  </g>
+
+  <path d="M43 44L49 55L55 44" fill="none" stroke="#5d7384" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 55L64 44L70 55" fill="none" stroke="#5d7384" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 64H71" fill="none" stroke="#5d7384" stroke-width="4.5" stroke-linecap="round"/>
+
+  <rect x="50" y="69" width="26" height="16" rx="4" fill="none" stroke="#f28c28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79 77C85 77 88 77 93 77" fill="none" stroke="#f28c28" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M89 72L95 77L89 82" fill="none" stroke="#f28c28" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="97" cy="92" rx="12" ry="8" fill="#8fd3d0" stroke="#2b6f77" stroke-width="3"/>
+
+  <path d="M44 89C49 84 57 83 63 86" fill="none" stroke="#2b6f77" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="88" r="2.5" fill="#2b6f77"/>
+  <circle cx="67" cy="87" r="2.5" fill="#2b6f77"/>
+</svg>
