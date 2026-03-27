@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Markdown Inline Excalidraw screenshot</title>
+  <desc id="desc">A side-by-side screenshot-style illustration showing markdown source on the left and rendered Excalidraw diagrams in the preview on the right.</desc>
+  <rect width="1280" height="720" fill="#0f1115"/>
+  <rect x="18" y="18" width="610" height="684" rx="12" fill="#111317" stroke="#2a2f3a"/>
+  <rect x="652" y="18" width="610" height="684" rx="12" fill="#17191f" stroke="#2a2f3a"/>
+
+  <rect x="18" y="18" width="610" height="42" rx="12" fill="#181c24"/>
+  <rect x="652" y="18" width="610" height="42" rx="12" fill="#181c24"/>
+  <circle cx="42" cy="39" r="6" fill="#ff5f57"/>
+  <circle cx="62" cy="39" r="6" fill="#febc2e"/>
+  <circle cx="82" cy="39" r="6" fill="#28c840"/>
+  <circle cx="676" cy="39" r="6" fill="#ff5f57"/>
+  <circle cx="696" cy="39" r="6" fill="#febc2e"/>
+  <circle cx="716" cy="39" r="6" fill="#28c840"/>
+
+  <text x="108" y="44" fill="#8aa0b8" font-family="Menlo, Monaco, monospace" font-size="18">examples</text>
+  <text x="204" y="44" fill="#8aa0b8" font-family="Menlo, Monaco, monospace" font-size="18">&gt;</text>
+  <text x="228" y="44" fill="#d9e1ea" font-family="Menlo, Monaco, monospace" font-size="18">sample.md</text>
+  <text x="742" y="44" fill="#d9e1ea" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="600">Markdown Preview</text>
+
+  <text x="40" y="92" fill="#67b7ff" font-family="Menlo, Monaco, monospace" font-size="22" font-weight="700"># Markdown Inline Excalidraw Showcase</text>
+  <text x="40" y="132" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">This example is meant to be opened in the built-in Markdown preview</text>
+  <text x="40" y="158" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">so you can see a realistic mix of prose, fenced </text>
+  <rect x="468" y="143" width="132" height="24" rx="6" fill="#252933"/>
+  <text x="480" y="160" fill="#c7d0da" font-family="Menlo, Monaco, monospace" font-size="18">excalidraw</text>
+  <text x="40" y="184" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">blocks, </text>
+  <rect x="118" y="169" width="144" height="24" rx="6" fill="#252933"/>
+  <text x="132" y="186" fill="#c7d0da" font-family="Menlo, Monaco, monospace" font-size="18">::: excalidraw</text>
+  <text x="278" y="184" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">containers, and the compressed Obsidian format.</text>
+
+  <text x="40" y="236" fill="#67b7ff" font-family="Menlo, Monaco, monospace" font-size="22" font-weight="700">## 1. Fenced Diagram: Markdown Preview Pipeline</text>
+  <text x="40" y="278" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">```excalidraw</text>
+  <text x="40" y="308" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">{</text>
+  <text x="62" y="336" fill="#98c379" font-family="Menlo, Monaco, monospace" font-size="18">"type":</text>
+  <text x="148" y="336" fill="#e5c07b" font-family="Menlo, Monaco, monospace" font-size="18">"excalidraw",</text>
+  <text x="62" y="364" fill="#98c379" font-family="Menlo, Monaco, monospace" font-size="18">"version":</text>
+  <text x="168" y="364" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">2,</text>
+  <text x="62" y="392" fill="#98c379" font-family="Menlo, Monaco, monospace" font-size="18">"source":</text>
+  <text x="158" y="392" fill="#e5c07b" font-family="Menlo, Monaco, monospace" font-size="18">"https://excalidraw.com",</text>
+  <text x="62" y="420" fill="#98c379" font-family="Menlo, Monaco, monospace" font-size="18">"elements":</text>
+  <text x="168" y="420" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">[</text>
+  <text x="84" y="448" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">{ "type": "rectangle", "width": 180, "height": 100 },</text>
+  <text x="84" y="476" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">{ "type": "arrow", "width": 120, "height": 0 },</text>
+  <text x="84" y="504" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">{ "type": "ellipse", "width": 150, "height": 90 }</text>
+  <text x="62" y="532" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">],</text>
+  <text x="62" y="560" fill="#98c379" font-family="Menlo, Monaco, monospace" font-size="18">"appState":</text>
+  <text x="178" y="560" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">{ "viewBackgroundColor": "#ffffff" }</text>
+  <text x="40" y="590" fill="#d19a66" font-family="Menlo, Monaco, monospace" font-size="18">}</text>
+  <text x="40" y="620" fill="#d1d7e0" font-family="Menlo, Monaco, monospace" font-size="18">```</text>
+
+  <text x="678" y="94" fill="#f3f5f8" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="700">Markdown Inline Excalidraw Showcase</text>
+  <line x1="678" y1="112" x2="1238" y2="112" stroke="#353c48"/>
+  <text x="678" y="152" fill="#d7dde6" font-family="Inter, Segoe UI, sans-serif" font-size="18">This example is meant to be opened in the built-in Markdown preview so you can</text>
+  <text x="678" y="178" fill="#d7dde6" font-family="Inter, Segoe UI, sans-serif" font-size="18">see a realistic mix of prose, fenced code blocks, containers, and compressed scenes.</text>
+
+  <text x="678" y="236" fill="#f3f5f8" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="700">1. Fenced Diagram: Markdown Preview Pipeline</text>
+  <line x1="678" y1="248" x2="1238" y2="248" stroke="#353c48"/>
+  <text x="678" y="288" fill="#d7dde6" font-family="Inter, Segoe UI, sans-serif" font-size="18">This first scene shows the markdown source flowing through the preview pipeline.</text>
+
+  <rect x="710" y="320" width="520" height="160" rx="10" fill="#fbfbfc" stroke="#d4d8de"/>
+  <rect x="725" y="340" width="96" height="54" rx="14" fill="#ffd56f" stroke="#6d7f94" stroke-width="2"/>
+  <rect x="865" y="340" width="112" height="54" rx="14" fill="#9ed0ef" stroke="#6d7f94" stroke-width="2"/>
+  <rect x="1018" y="334" width="122" height="66" rx="14" fill="#b7d7f6" stroke="#6d7f94" stroke-width="2"/>
+  <ellipse cx="1185" cy="367" rx="55" ry="36" fill="#c7f7b7" stroke="#6d7f94" stroke-width="2"/>
+  <path d="M821 367 C839 367 846 367 864 367" stroke="#2b7a59" stroke-width="3" fill="none"/>
+  <path d="M977 367 C994 367 1001 367 1016 367" stroke="#2b7a59" stroke-width="3" fill="none"/>
+  <path d="M1140 367 C1150 367 1158 367 1130 367" stroke="#2b7a59" stroke-width="3" fill="none"/>
+  <polygon points="857,361 868,367 857,373" fill="#2b7a59"/>
+  <polygon points="1009,361 1020,367 1009,373" fill="#2b7a59"/>
+  <polygon points="1122,361 1133,367 1122,373" fill="#2b7a59"/>
+  <path d="M1079 400 C1079 438 1088 446 1088 456" stroke="#8b63b0" stroke-width="3" stroke-dasharray="8 7" fill="none"/>
+  <polygon points="1081,453 1088,464 1095,453" fill="#8b63b0"/>
+  <polygon points="1030,490 1088,448 1146,490 1088,532" fill="#f4c6f0" stroke="#8b63b0" stroke-width="2"/>
+
+  <text x="736" y="373" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="21">Markdown doc</text>
+  <text x="885" y="367" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="19">markdown-it</text>
+  <text x="889" y="389" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="19">plugin</text>
+  <text x="1050" y="364" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="19">Lazy Excalidraw</text>
+  <text x="1050" y="386" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="19">renderer</text>
+  <text x="1154" y="372" fill="#3f4b56" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="21">Preview HTML</text>
+  <text x="1058" y="488" fill="#7d4a93" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="18">Theme</text>
+  <text x="1041" y="510" fill="#7d4a93" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="18">background</text>
+  <text x="1055" y="531" fill="#7d4a93" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="18">options</text>
+
+  <text x="678" y="538" fill="#f3f5f8" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="700">2. Container Diagram: Simple Release Board</text>
+  <line x1="678" y1="550" x2="1238" y2="550" stroke="#353c48"/>
+  <text x="678" y="590" fill="#d7dde6" font-family="Inter, Segoe UI, sans-serif" font-size="18">A denser board-style scene gives the preview something closer to a real project page.</text>
+
+  <rect x="705" y="614" width="170" height="74" rx="22" fill="#f1f2f5" stroke="#c4cad4" stroke-width="2"/>
+  <rect x="896" y="614" width="170" height="74" rx="22" fill="#f1f2f5" stroke="#c4cad4" stroke-width="2"/>
+  <rect x="1087" y="614" width="143" height="74" rx="22" fill="#f1f2f5" stroke="#c4cad4" stroke-width="2"/>
+  <text x="760" y="644" fill="#4b5865" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="20">Backlog</text>
+  <text x="957" y="644" fill="#4b5865" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="20">Building</text>
+  <text x="1136" y="644" fill="#4b5865" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-size="20">Done</text>
+</svg>

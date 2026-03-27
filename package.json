@@ -2,8 +2,11 @@
   "name": "markdown-inline-excalidraw",
   "displayName": "Markdown Inline Excalidraw",
   "description": "Adds inline Excalidraw diagram support to VS Code's built-in Markdown preview.",
-  "version": "0.0.1",
-  "publisher": "Erez Korn",
+  "version": "1.0.0",
+  "publisher": "ErezKorn",
+  "author": {
+    "name": "Erez Korn"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -27,6 +30,8 @@
   "files": [
     "dist/**",
     "dist-preview/**",
+    "media/**",
+    "LICENSE",
     "README.md",
     "CHANGELOG.md"
   ],
@@ -91,7 +96,7 @@
     "build": "npm run build:extension && npm run build:preview",
     "build:extension": "node ./build/esbuild-extension.mjs",
     "build:preview": "node ./build/esbuild-preview.mjs",
-    "package:vsix": "python3 ./build/package-vsix.py",
+    "package:vsix": "node ./build/package-vsce.mjs",
     "watch": "node ./build/watch.mjs",
     "analyze:preview": "node ./build/esbuild-preview.mjs --metafile",
     "scan:secrets": "node ./build/scan-secrets.mjs",

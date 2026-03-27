@@ -4,6 +4,8 @@ A VS Code extension that adds inline Excalidraw diagram support to the built-in 
 
 This extension is intentionally modeled after Matt Bierner's Markdown Preview Mermaid Support extension, but targets Excalidraw scenes embedded directly inside markdown.
 
+![Extension screenshot](https://raw.githubusercontent.com/erezak/excalidraw-markdown-preview-vscode/main/media/extension-screenshot.png)
+
 ## Supported syntax
 
 Use fenced code blocks:
